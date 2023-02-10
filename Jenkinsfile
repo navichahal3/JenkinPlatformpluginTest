@@ -24,7 +24,7 @@ tools {
             iqInstanceId: 'Nexus_Repo', 
             iqOrganization: '8faff48b35b047dcba1cf8a49479ebf9', 
             iqStage: 'build', 
-            iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties']]
+            iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties']],
             jobCredentialsId: 'a3b9035f-9881-46fe-85f4-b09ba58af95a'
         }
      }
