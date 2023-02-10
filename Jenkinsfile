@@ -8,12 +8,12 @@ tools {
   }
  
   stages {
-    // stage ('Build') {
-    //   steps {
-    //     git branch: "experiment", url: 'https://github.com/koraytugay/groovyship.git'
-    //     sh 'mvn clean install'
-    //   }
-    // }
+     stage ('Build') {
+       steps {
+         git branch: "main", url: 'https://github.com/koraytugay/groovyship.git'
+         sh 'mvn clean install'
+       }
+     }
 
   }
 }
