@@ -10,7 +10,7 @@ tools {
   stages {
      stage ('Build') {
        steps {
-         git branch: "main", url: 'https://github.com/navichahal3/JenkinPlatformpluginTest.git'
+         git url: 'https://github.com/navichahal3/JenkinPlatformpluginTest.git', branch: 'main'
          sh 'mvn clean install'
        }
      }
