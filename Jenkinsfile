@@ -21,7 +21,7 @@ tools {
             enableDebugLogging: false, 
             failBuildOnNetworkError: false, 
             iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties']],
-            iqApplication: 'local-app', iqInstanceId: 'Nexus_Repo', iqOrganization: '8faff48b35b047dcba1cf8a49479ebf9', iqStage: 'build', jobCredentialsId: ''
+            iqApplication: selectedApplication('123'), iqInstanceId: 'Nexus_Repo', iqOrganization: '8faff48b35b047dcba1cf8a49479ebf9', iqStage: 'build', jobCredentialsId: ''
         }
      }
   }
