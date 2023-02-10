@@ -10,10 +10,9 @@ tools {
   stages {
      stage ('Build') {
        steps {
-         git url: 'https://github.com/navichahal3/JenkinPlatformpluginTest.git', branch: 'main'
+         git branch: "main", url: 'https://github.com/koraytugay/groovyship.git'
          sh 'mvn clean install'
        }
      }
-
   }
 }
